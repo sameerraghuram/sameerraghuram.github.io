@@ -27,7 +27,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>I am a graduate student pursuing my degree in Computer Science at the Rochester Institute of Technology.  I am looking for a Summer 2017 internship/Co-op in a software development role. I am passionate about all fields in computer science, especially distributed systems, programming languages and concurrent programming.  </p>
+          <p>I am a graduate student pursuing my degree in Computer Science at the Rochester Institute of Technology.  I am looking for a Summer or Fall 2017 internship/Co-op in a software development role. I am passionate about all fields in computer science, especially distributed systems, programming languages and concurrent programming.  </p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -54,8 +54,9 @@
           <p class="resume-item-copy"> I am one of three graduate technical assistants. We work as a part of the System Administrations team for the RIT Computer Science department.</p>
           <ul class="resume-item-list">
             <li>Involves supporting 1000+ users, and over 200 CS  machines comprising of Ubuntu, FreeBSD, Solaris, Mac and Windows machines.</li>
-            <li>Improved scripts used by all students and faculty in the CS department to help with user account management. Working on applications to improve load distribution across CS machines..</li>
-            <li>Linux, Mac and Windows System Administration.</li>
+            <li>Write scripts to automate administration tasks.</li>
+            <li>Maintain and improved Bash, Perl and Python programs used by all students and faculty in the CS department to help with user account management. Working on applications to improve load distribution across CS machines..</li>
+            <!--<li>Linux, Mac and Windows System Administration.</li> -->
           </ul>
           <p class="resume-item-copy"></p>
 
@@ -99,8 +100,18 @@
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">Rochester Institute of Technology</h3>
           <h4 class="resume-item-details" itemprop="description">Masters in Computer Science &bull; 2015 &mdash; 2017 (tentative)</h4>
-          <h4 class="resume-item-details" itemprop="gpa"> GPA: 3.81 </h4>
-          <p class="resume-item-copy"> Graduate Technical Asisstant of the RIT Computer Science Department. 
+          <h4 class="resume-item-details" itemprop="gpa"> GPA: 3.71 </h4>
+          <h4 class="resume-item-details" itemprop="Courses">Courses</h4>
+          <p class="resume-item-copy"> 
+          <ul>
+          	<li>Advanced Object Oriented Programming</li>
+          	<li>Foundations of Computer Science Theory</li>
+          	<li>Foundations of Algorithms</li>
+          	<li>Distributed Systems</li>
+          	<li>Introduction to Big Data</li>
+          	<li>Programming Language Theory</li>
+          	<li>Foundations of Parallel Computing</li>
+          </ul> 
 
           </p>
         </div>
@@ -140,15 +151,21 @@
         </div>
 
         <div class="resume-item">
-          <h3 class="resume-item-title">Distributed Algorithm Implementations.</h3>
-          <h4 class="resume-item-details"> &bull; 2015 &mdash; 2016</h4>
-          <p class="resume-item-copy">These are some of my implementations of the algorithms taught to me in a Distributed Systems class. Includes the usual suspects - <a href="https://github.com/sameerraghuram/ChordDHT">Distributed Hash Tables</a>, <a href="https://github.com/sameerraghuram/logical-timestamp">Logical Timestamps</a>, <a href="https://github.com/sameerraghuram/GlobalSnapshot">Global Snapshot</a> etc. All of these are written in Python.</p>
+          <h3 class="resume-item-title">Type Checker and Interpreter for Simply-Typed Lambda Calculus</h3>
+          <h4 class="resume-item-details"> &bull; 2016 &mdash; 2016</h4>
+          <p class="resume-item-copy">Implemented by translating formal operational semantics for a simple (but Turing-complete) language with integer, function and reference types. The rules for interpreting and type-checking were developed as a part of a programming language theory course, and include features like subtyping, generic types and recursive types. The language used is StandardML, a functional programming language that has formed the basis for modern languages like Scala and Haskell.</p>
         </div>
 
         <div class="resume-item">
           <h3 class="resume-item-title"><a href="https://github.com/sameerraghuram/GPU-Accelerated-KMedoids-Clustering">KMedoids clustering using GPU acceleration</a></h3>
           <h4 class="resume-item-details"> &bull; 2016 &mdash; 2016</h4>
           <p class="resume-item-copy">Used the Nvidia CUDA API in conjunction with a parallel programming library written in Java (Parallel Java 2) to find a pair of cluster centres for a given plot of points. All computations and parallel reductions were done on the GPU.</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title"><a href="http://www.slideshare.net/sam181192/parallel-artificial-bee-colony-algorithm">Parallel Artificial Bee Colony Algorithm</a></h3>
+          <h4 class="resume-item-details"> &bull; 2016 &mdash; 2016</h4>
+          <p class="resume-item-copy">We find optimal solutions to the Vehicle Routing Problem by using the Artificial Bee Colony (ABC) algorithm--an optimisation algorithm that mimics the swarm intelligence of bees in nature. We implement this algorithm in parallel over several cores and present a comparative study of the results.</p>
         </div>
 
       </section>
